@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои работы - Портфолио Соленова Евгения</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Соленов Евгений</div>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a class="nav-link" href="../index.html">Главная</a></li>
+                <li><a class="nav-link active" href="projects.html">Мои работы</a></li>
+                <li><a class="nav-link" href="diary.html">Дневник</a></li>
+                <li><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="../index.html">Главная</a>
+            <span>/</span>
+            <span class="current">Мои работы</span>
+        </nav>
+    </div>
+
+    <main class="container">
+        <h1 class="page-title">Мои работы</h1>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <picture>
+                        <source srcset="../images/git-мобильное.jpg" media="(max-width: 768px)">
+                        <img src="../images/git.png" alt="Личный сайт">
+                    </picture>
+                </div>
+                <div class="project-content">
+                    <h3>Личный сайт</h3>
+                    <p>Адаптивный сайт-портфолио с использованием HTML5 и CSS3.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <picture>
+                        <source srcset="../images/lit-мобильное.jpg" media="(max-width: 768px)">
+                        <img src="../images/lit.png" alt="LeetCode">
+                    </picture>
+                </div>
+                <div class="project-content">
+                    <h3>LeetCode</h3>
+                    <p>Решение алгоритмических задач для развития логики и программирования.</p>
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <picture>
+                        <source srcset="../images/hex-мобильное.jpg" media="(max-width: 768px)">
+                        <img src="../images/hex.png" alt="Hexlet">
+                    </picture>
+                </div>
+                <div class="project-content">
+                    <h3>Hexlet</h3>
+                    <p>Участие в соревнованиях по программированию.</p>
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Портфолио Соленова Евгения</p>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html>

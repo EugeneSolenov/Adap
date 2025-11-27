@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Портфолио Соленова Евгения</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Соленов Евгений</div>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a class="nav-link" href="../index.html">Главная</a></li>
+                <li><a class="nav-link" href="projects.html">Мои работы</a></li>
+                <li><a class="nav-link" href="diary.html">Дневник</a></li>
+                <li><a class="nav-link active" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="../index.html">Главная</a>
+            <span>/</span>
+            <span class="current">Контакты</span>
+        </nav>
+    </div>
+
+    <main class="container">
+        <h1 class="page-title">Свяжитесь со мной</h1>
+
+        <div class="contact-layout">
+            <div class="contact-form-section">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                </form>
+            </div>
+
+            <div class="contact-info-section">
+                <div class="contact-card">
+                    <h3>Контакты</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <a href="mailto:solenov2007@gmail.com">solenov2007@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <a href="tel:+79051111111">+7 (905) 111-11-11</a>
+                        </div>
+                        <div class="contact-item">
+                            <a href="https://github.com/EugeneSolenov" target="_blank">GitHub</a>
+                        </div>
+                        <div class="contact-item">
+                            <span>Москва, Россия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Портфолио Соленова Евгения</p>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html>

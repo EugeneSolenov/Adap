@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник - Портфолио Соленова Евгения</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Соленов Евгений</div>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a class="nav-link" href="../index.html">Главная</a></li>
+                <li><a class="nav-link" href="projects.html">Мои работы</a></li>
+                <li><a class="nav-link active" href="diary.html">Дневник</a></li>
+                <li><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="../index.html">Главная</a>
+            <span>/</span>
+            <span class="current">Дневник</span>
+        </nav>
+    </div>
+
+    <main class="container">
+        <h1 class="page-title">Мой учебный прогресс</h1>
+
+        <div class="card">
+            <div class="card-header">
+                <h2>История обучения</h2>
+            </div>
+            <div class="card-body">
+                <div class="progress-list">
+                    <div class="progress-item completed">
+                        <span class="progress-date">26.10.2025</span>
+                        <span class="progress-text">Верстка макета сайта</span>
+                        <span class="progress-status">Завершено</span>
+                    </div>
+                    <div class="progress-item in-progress">
+                        <span class="progress-date">26.10.2025</span>
+                        <span class="progress-text">Адаптивный дизайн</span>
+                        <span class="progress-status">В процессе</span>
+                    </div>
+                    <div class="progress-item completed">
+                        <span class="progress-date">25.10.2025</span>
+                        <span class="progress-text">Основы JavaScript</span>
+                        <span class="progress-status">Завершено</span>
+                    </div>
+                    <div class="progress-item completed">
+                        <span class="progress-date">31.06.2025</span>
+                        <span class="progress-text">Алгоритмы и структуры данных</span>
+                        <span class="progress-status">Завершено</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2>Текущие курсы</h2>
+            </div>
+            <div class="card-body">
+                <div class="course-progress">
+                    <div class="course-item">
+                        <label>Веб-разработка</label>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%">50%</div>
+                        </div>
+                    </div>
+                    <div class="course-item">
+                        <label>JavaScript</label>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 25%">25%</div>
+                        </div>
+                    </div>
+                    <div class="course-item">
+                        <label>C++</label>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Портфолио Соленова Евгения</p>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html>
